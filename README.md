@@ -1,4 +1,4 @@
-  # Final-Project
+# Final-Project
 
 # 🚀 Lung Cancer Prediction Using Clinical, Biochemical, and Genetic Data
 
@@ -69,12 +69,6 @@ The dataset was split into **80% training and 20% testing**, and five machine le
 ### **Step 4: Model Optimization & Hyperparameter Tuning**
 ✔ **Fine-tuned Random Forest parameters** using `GridSearchCV` to find the best configuration:
 
-```yaml
-Best Parameters: {'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 50}
-
-
-✔ Final Accuracy: 93.03%
-
 Step 5: Model Deployment
 ✔ Created an ML Pipeline: Used Pipeline() to streamline feature scaling and model training.
 ✔ Saved the Model: Used joblib to store the trained Random Forest classifier for future predictions.
@@ -109,5 +103,3 @@ To further enhance the model’s performance and deployment, the following steps
 ✔ Feature Engineering: Introduce new biomarkers or patient history data.
 ✔ Deep Learning Models: Explore Neural Networks for potential accuracy improvements.
 ✔ Deploy the Model: Build a Flask API or integrate the model into a healthcare application for real-world use.
-
-
