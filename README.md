@@ -1,6 +1,9 @@
 # Final-Project
+
 Lung Cancer Prediction Using Clinical, Biochemical, and Genetic Data
+
 📌 Project Overview
+
 Lung cancer remains one of the leading causes of cancer-related deaths worldwide. Early detection is crucial for improving survival rates. This project aims to develop a machine learning-based predictive model that can assist in identifying lung cancer cases using demographic, clinical, biochemical, and genetic data.
 
 By leveraging supervised learning techniques, this project provides an automated and interpretable approach to lung cancer detection, potentially aiding healthcare professionals in decision-making.
