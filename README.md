@@ -1,4 +1,4 @@
-# Final-Project
+  # Final-Project
 
 # 🚀 Lung Cancer Prediction Using Clinical, Biochemical, and Genetic Data
 
@@ -71,3 +71,43 @@ The dataset was split into **80% training and 20% testing**, and five machine le
 
 ```yaml
 Best Parameters: {'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 50}
+
+
+✔ Final Accuracy: 93.03%
+
+Step 5: Model Deployment
+✔ Created an ML Pipeline: Used Pipeline() to streamline feature scaling and model training.
+✔ Saved the Model: Used joblib to store the trained Random Forest classifier for future predictions.
+
+📈 Key Findings & Insights
+🔹 Most Influential Features for Lung Cancer Prediction:
+
+Tumor Size (Highly correlated with lung cancer presence)
+
+ctDNA Concentration (Important biomarker for cancer detection)
+
+Biopsy Result (A strong indicator of lung cancer presence)
+
+VOC1 & VOC2 Concentration (Show patterns related to lung cancer cases)
+
+Smoking History (Risk factor influencing lung cancer occurrence)
+
+🔹 Model Performance Insights
+
+Random Forest achieved the best accuracy (93.03%) and recall (98.8%), making it the most reliable model.
+
+Logistic Regression had high precision but low recall, making it less effective for lung cancer detection.
+
+Decision Tree performed well but had a slightly higher risk of overfitting.
+
+SVM and KNN struggled due to class imbalance issues.
+
+📌 Recommendations & Next Steps
+To further enhance the model’s performance and deployment, the following steps are recommended:
+
+✔ Expand the dataset: More patient data can improve model generalization.
+✔ Feature Engineering: Introduce new biomarkers or patient history data.
+✔ Deep Learning Models: Explore Neural Networks for potential accuracy improvements.
+✔ Deploy the Model: Build a Flask API or integrate the model into a healthcare application for real-world use.
+
+
